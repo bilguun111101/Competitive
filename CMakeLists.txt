@@ -13,7 +13,8 @@ add_executable(competitive
     problems/main.cpp 
     # problems/leetcode/add_two_numbers.cpp
     # problems/leetcode/longest_substring.cpp
-    problems/leetcode/median_two_array.cpp
+    # problems/leetcode/median_two_array.cpp
+    problems/leetcode/longest_palindromic.cpp
 )
 
 target_include_directories(competitive PRIVATE include)

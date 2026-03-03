@@ -1,7 +1,8 @@
 // #include "../include/leetcode/two_sum.hpp"
 // #include "../include/leetcode/add_two_numbers.hpp"
 // #include "../include/leetcode/longest_substring.hpp"
-#include "../include/leetcode/median_two_array.hpp"
+// #include "../include/leetcode/median_two_array.hpp"
+#include "../include/leetcode/longest_palindromic.hpp"
 #include <iostream>
 
 int main() {
@@ -41,7 +42,8 @@ int main() {
     std::vector<int> nums1 = {1, 2};
     std::vector<int> nums2 = {3, 4};
 
-    double result = sol.findMedianSortedArrays(nums1, nums2);
+    // double result = sol.findMedianSortedArrays(nums1, nums2);
+    std::string result = sol.longestPalindrome("babad");
 
     std::cout << "result: " << result << "\n";
 

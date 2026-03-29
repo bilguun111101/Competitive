@@ -15,7 +15,9 @@ add_executable(competitive
     # problems/leetcode/longest_substring.cpp
     # problems/leetcode/median_two_array.cpp
     # problems/leetcode/longest_palindromic.cpp
-    problems/leetcode/zigzag_conversation.cpp
+    # problems/leetcode/zigzag_conversation.cpp
+    # problems/leetcode/remove_element.cpp
+    problems/leetcode/letter_combination.cpp
 )
 
 target_include_directories(competitive PRIVATE include)
@@ -26,4 +28,4 @@ target_compile_options(competitive PRIVATE
     -Wextra
 )
 
-target_compile_definitions(competitive PRIVATE LOCAL)
+target_compile_definitions(competitive PRIVATE LOCAL)   

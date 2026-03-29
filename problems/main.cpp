@@ -3,7 +3,9 @@
 // #include "../include/leetcode/longest_substring.hpp"
 // #include "../include/leetcode/median_two_array.hpp"
 // #include "../include/leetcode/longest_palindromic.hpp"
-#include "../include/leetcode/zigzig_conversation.hpp"
+// #include "../include/leetcode/zigzig_conversation.hpp"
+// #include "../include/leetcode/remove_element.hpp"
+#include "../include/leetcode/letter_combination.hpp"
 #include <iostream>
 
 int main() {
@@ -36,8 +38,8 @@ int main() {
 
     // std::cout << "result:   " << result << "\n";
 
-
-    Solution sol;
+    // Solution sol;
+    // Solution sol;
     // std::vector<int> nums1 = {1, 3};
     // std::vector<int> nums2 = {2};
     // std::vector<int> nums1 = {1, 2};
@@ -45,10 +47,27 @@ int main() {
 
     // double result = sol.findMedianSortedArrays(nums1, nums2);
     // std::string result = sol.longestPalindrome("babad");
-    std::string s = "PAYPALISHIRING";
-    std::string result = sol.convert(s, 3);
+    // std::string s = "PAYPALISHIRING";
+    // std::string result = sol.convert(s, 3);
 
-    std::cout << "result: " << result << "\n";
+    // std::cout << "result: " << result << "\n";
+
+    // std::vector<int> nums = {3, 2, 2, 3};
+    // int k = sol.removeElement(nums, 3);
+    // std::cout << "k: " << k << "\n";
+
+    // for (int i = 0; i < nums.size(); i++) {
+    //     std::cout << "nums[i]: " << nums[i] << "\n";
+    // }
+
+    // Solution sol;
+
+    Solution sol;
+    std::string digits = "23";
+    std::vector<std::string> vector = sol.letterCombinations(digits);
+    for (const std::string& vec : vector) {
+        std::cout << "vec: " << vec << "\n";
+    }
 
     return 0;
 }

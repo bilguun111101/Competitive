@@ -17,7 +17,8 @@ add_executable(competitive
     # problems/leetcode/longest_palindromic.cpp
     # problems/leetcode/zigzag_conversation.cpp
     # problems/leetcode/remove_element.cpp
-    problems/leetcode/letter_combination.cpp
+    # problems/leetcode/letter_combination.cpp
+    problems/leetcode/validate_parenthesis_string.cpp
 )
 
 target_include_directories(competitive PRIVATE include)

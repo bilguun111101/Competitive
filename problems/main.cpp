@@ -5,7 +5,8 @@
 // #include "../include/leetcode/longest_palindromic.hpp"
 // #include "../include/leetcode/zigzig_conversation.hpp"
 // #include "../include/leetcode/remove_element.hpp"
-#include "../include/leetcode/letter_combination.hpp"
+// #include "../include/leetcode/letter_combination.hpp"
+#include "../include/leetcode/validate_parenthesis_string.hpp"
 #include <iostream>
 
 int main() {
@@ -63,10 +64,14 @@ int main() {
     // Solution sol;
 
     Solution sol;
-    std::string digits = "23";
-    std::vector<std::string> vector = sol.letterCombinations(digits);
-    for (const std::string& vec : vector) {
-        std::cout << "vec: " << vec << "\n";
+    // std::string s = "()";
+    std::string s = "(*))";
+    bool isParenthesis = sol.checkValidString(s);
+
+    if (isParenthesis) {
+        std::cout << "isParenthesis: " << "true" << "\n";
+    } else {
+        std::cout << "isParenthesis: " << "false" << "\n";
     }
 
     return 0;

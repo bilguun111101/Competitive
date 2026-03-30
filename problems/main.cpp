@@ -6,7 +6,8 @@
 // #include "../include/leetcode/zigzig_conversation.hpp"
 // #include "../include/leetcode/remove_element.hpp"
 // #include "../include/leetcode/letter_combination.hpp"
-#include "../include/leetcode/validate_parenthesis_string.hpp"
+// #include "../include/leetcode/validate_parenthesis_string.hpp"
+#include "../include/leetcode/validate_parenthesis.hpp"
 #include <iostream>
 
 int main() {
@@ -65,14 +66,20 @@ int main() {
 
     Solution sol;
     // std::string s = "()";
-    std::string s = "(*))";
-    bool isParenthesis = sol.checkValidString(s);
+    // std::string s = "(*))";
+    // bool isParenthesis = sol.checkValidString(s);
 
-    if (isParenthesis) {
-        std::cout << "isParenthesis: " << "true" << "\n";
-    } else {
-        std::cout << "isParenthesis: " << "false" << "\n";
-    }
+    // if (isParenthesis) {
+    //     std::cout << "isParenthesis: " << "true" << "\n";
+    // } else {
+    //     std::cout << "isParenthesis: " << "false" << "\n";
+    // }
+    // std::string s = "()";
+    std::string s = "(])";
+    bool isParenthesis = sol.isValid(s);
+    // if (isParenthesis) {
+        std::cout << "isParenthesis: " << isParenthesis << "\n";
+    // }/
 
     return 0;
 }

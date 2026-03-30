@@ -2,7 +2,6 @@
 #include <iostream>
 
 bool Solution::checkValidString(std::string s) {
-    std::stack<char> stack;
     int8_t low = 0, high = 0;
     for (const char c : s) {
         switch (c) {

@@ -20,7 +20,8 @@ add_executable(competitive
     # problems/leetcode/letter_combination.cpp
     # problems/leetcode/validate_parenthesis_string.cpp
     # problems/leetcode/validate_parenthesis.cpp
-    problems/leetcode/implement_stack_using_queues.cpp
+    # problems/leetcode/implement_stack_using_queues.cpp
+    problems/leetcode/remove_duplicated_from_sorted_list.cpp
 )
 
 target_include_directories(competitive PRIVATE include)

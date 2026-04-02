@@ -6,12 +6,6 @@ func min(a, b int) int {
 	}
 	return b
 }
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
 
 // nums := []int16{1, 3, 5, 6}
 // 10

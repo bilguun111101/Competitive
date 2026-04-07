@@ -13,7 +13,8 @@ func main() {
 	// result_index := leetcode.SearchInsert(nums, 7)
 	// fmt.Println("index: ", result_index)
 
-	result := leetcode.GenerateParethesis(3)
+	// result := leetcode.GenerateParethesis(3)
+	result := leetcode.CombinationSum([]int{2, 3, 6, 7}, 7)
 
 	fmt.Println("string: ", result)
 

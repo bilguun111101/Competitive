@@ -13,9 +13,17 @@ func main() {
 	// result_index := leetcode.SearchInsert(nums, 7)
 	// fmt.Println("index: ", result_index)
 
-	haystack := "sadbutsad"
-	needle := "sad"
+	result := leetcode.GenerateParethesis(3)
 
-	result_index := leetcode.StrStr(haystack, needle)
-	fmt.Println("index: ", result_index)
+	fmt.Println("string: ", result)
+
+	for _, s := range result {
+		fmt.Println("string: ", s)
+	}
+
+	// haystack := "sadbutsad"
+	// needle := "sad"
+
+	// result_index := leetcode.StrStr(haystack, needle)
+	// fmt.Println("index: ", result_index)
 }

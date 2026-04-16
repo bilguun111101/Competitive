@@ -14,13 +14,10 @@ func main() {
 	// fmt.Println("index: ", result_index)
 
 	// result := leetcode.GenerateParethesis(3)
-	result := leetcode.CombinationSum([]int{2, 3, 6, 7}, 7)
+	// result := leetcode.CombinationSum([]int{2, 3, 6, 7}, 7)
+	result := leetcode.LetterCombinations("2377")
 
 	fmt.Println("string: ", result)
-
-	for _, s := range result {
-		fmt.Println("string: ", s)
-	}
 
 	// haystack := "sadbutsad"
 	// needle := "sad"

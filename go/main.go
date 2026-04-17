@@ -15,7 +15,8 @@ func main() {
 
 	// result := leetcode.GenerateParethesis(3)
 	// result := leetcode.CombinationSum([]int{2, 3, 6, 7}, 7)
-	result := leetcode.LetterCombinations("2377")
+	// result := leetcode.LetterCombinations("2377")
+	result := leetcode.NearestPalindromic("1213")
 
 	fmt.Println("string: ", result)
 
